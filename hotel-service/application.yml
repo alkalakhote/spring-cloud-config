@@ -1,3 +1,5 @@
+
+# Application Name will be used as service-Id when registred with eureka  
 spring:
   datasource:
     username: root
@@ -10,5 +12,3 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
-
-    
